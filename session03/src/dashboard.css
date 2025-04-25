@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background: #0b1b3f;
+    color: white;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+  }
+  .actions button {
+    margin-left: 10px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .login-btn {
+    background-color: #ffe600;
+    color: black;
+  }
+  .cta-btn {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #2f80ed;
+    color: white;
+  }
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
